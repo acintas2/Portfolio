@@ -26,6 +26,9 @@ header h1:hover {
     align-items: center;
     justify-content: center;
 }
+.education-degree {
+    background-color: red;
+}
 a{
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -60,17 +63,30 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
   
     
     
 }
+
+
 .content-left-education {
-   background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    width: 70%;
+   background-color: rgba(172, 255, 47, 0.534);
+    border: 1px solid rgb(22, 22, 22);
+    width: 90%;
     padding: 10px;
    line-height: 30px;
+   
+}
+
+.finished{
+    background-color: rgba(255, 166, 0, 0.616);
+}
+
+
+.content-left-education b {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .content-left p {
