@@ -11,6 +11,7 @@ header h1{
 color: white;
 font-size: 50px;
 letter-spacing: 10px;
+font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 header h1:hover {
@@ -27,7 +28,7 @@ header h1:hover {
 }
 a{
     text-decoration: none;
-    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
     color: white;
     cursor: pointer;
@@ -45,29 +46,31 @@ a:hover {
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+    
+   
+
     
 
 }
 .content-text {
-    width: 900px;
-    height: 500px;
-    
-    margin-left: 100px;
+    width: 60%;
+    height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
+    
+    
 }
 .content-text h1 {
 text-align: center;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-family: Georgia, 'Times New Roman', Times, serif;
 font-size: 60px;
 letter-spacing: 3px;
 }
 .content-text h2 {
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 font-size: 20px;
 letter-spacing: 3px;
 }
@@ -87,7 +90,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    position: relative;
 }
 footer p {
     text-align: center;
