@@ -2,7 +2,7 @@ body{
     padding: 0;
     margin: 0;
     
-   background-color: red;
+background-color: red;
 }
 html, body {
     height: 100%;
@@ -12,13 +12,9 @@ html, body {
     
     background: linear-gradient(to right, #3d8b36, #fffefd);
     -webkit-background-clip: text; 
- 
     color: transparent; 
-
-   
     font-size: 50px; /* Ajusta el tamaño según tus preferencias */
     margin: 0; /* Elimina el margen superior e inferior del h1 */
-   
 }
 #div-clock {
     color: white;
@@ -26,7 +22,7 @@ html, body {
     font-size: 18px; /* Ajusta el tamaño según tus preferencias */
 }
 
- header {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -73,7 +69,7 @@ a:hover {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-   min-height: 100%;
+    min-height: 100%;
     display: flex;
     flex-direction: column; 
 }
@@ -85,9 +81,6 @@ a:hover {
     align-items: center;
     margin-top: 100px;
     min-height: 100%;
-   
-    
-    
 }
 .content-text h1 {
 text-align: center;
@@ -102,13 +95,11 @@ background: linear-gradient(to right,black, #3d8b36b0,black);
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-   
     font-size: 45px;
     margin-left: 30px;
 letter-spacing: 3px;
 background: linear-gradient(to right,rgb(58, 82, 53), #141414,rgb(58, 82, 53));
     -webkit-background-clip: text; 
- 
     color: transparent; 
 }
 
@@ -131,7 +122,7 @@ background: linear-gradient(to right,rgb(58, 82, 53), #141414,rgb(58, 82, 53));
 footer{
     color: white;
     width: 100%;
-   height: 80px;
+    height: 80px;
     left: 0;
     bottom: 0;
     display: flex;
