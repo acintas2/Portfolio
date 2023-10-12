@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="stylesresume.css">
+    <script src="./scripts.js"></script>
 </head>
-<body>
+<body onload="startRellotge()">
     <header>
         <h1 class="h1-title">Agustín Cintas</h1>
         <nav>
@@ -18,13 +19,14 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
+        <span id="div-clock"></span>
        
     </header>
    
        <div class="container-principal">
         <div class="content-left">
             <h1>Education</h1>
-            <div class="content-left-education finished">
+            <div class="content-left-education">
                 <b>Higher Degree in Web Application Development </b><br>
                 <i>2023 / Currently studying</i><br>
                 <b>IES Carles Vallbona</b>
