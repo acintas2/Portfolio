@@ -64,8 +64,8 @@ a:hover {
 .container-principal{
     width: auto;
     background: 
-    linear-gradient(to right, #3d8b3618, #eef3ed), 
-    linear-gradient(to left,  #3d8b361f, white);
+    linear-gradient(to right, #3d8b3613, white), 
+    linear-gradient(to left,  #3d8b362d, white);
     min-height: 100%;
     background-position: center;
     background-size: cover;
