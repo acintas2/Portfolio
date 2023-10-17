@@ -14,3 +14,18 @@ function mostraRellotge(){
 function startRellotge(){
     setInterval(mostraRellotge,1000);
 }
+
+function mostraData(){
+    const fechaAMostrar1 = document.getElementById("fechaActual");
+    const diasTranscurridos = document.getElementById("diasTranscurridos");
+    
+    const fechaActual = new Date();
+    const fechaInicio = new Date('2020-09-21');
+    var diferenciaFechas = fechaActual -fechaInicio; 
+    const milisegundosPorDia = 24 * 60 * 60 * 1000;
+    const diferenciaDias = Math.floor(diferenciaFechas / milisegundosPorDia);
+
+
+    fechaAMostrar1.innerHTML = fechaActual.toLocaleDateString();
+    diasTranscurridos.innerHTML = "Han pasado <b>" + diferenciaDias + "</b> dias desde el 21 de Septiembre de 2020";
+}

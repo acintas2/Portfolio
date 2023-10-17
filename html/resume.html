@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="../css/stylesresume.css">
     <script src="../js/scripts.js"></script>
 </head>
-<body onload="startRellotge()">
+<body onload="startRellotge(); mostraData();">
     <header>
         <h1 class="h1-title">Agustín Cintas</h1>
         <nav>
             <ul class="ul-nav">
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./about.html">About</a></li>
-                <li><a href="./resume.html">Resume</a></li>
+                <li id="selected"><a href="./resume.html">Resume</a></li>
                 <li><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
@@ -78,8 +78,11 @@
        </div>
 
     
-    <footer>
-     <p><i> &copy;Derechos Reservados por Agustín Cintas</i></p>
-    </footer>
+       <footer>
+        
+        <b> &copy;Derechos Reservados por Agustín Cintas</b>
+        <i style="color: white;" id="fechaActual"></i>
+        <i style="color: white;" id="diasTranscurridos"></i>
+       </footer>
 </body>
 </html>

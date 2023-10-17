@@ -31,9 +31,11 @@ header h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     
     }
-header h1:hover {
-    color: goldenrod;
-}
+    header h1:hover {
+        background: linear-gradient(to right, white, #3d8b36);
+        -webkit-background-clip: text; 
+        color: transparent; 
+    }
 
 .ul-nav{
     display: flex;
@@ -55,7 +57,11 @@ a{
     color: transparent; 
 }
 a:hover {
-    color: goldenrod;
+    color: green;
+}
+#selected{
+    
+    border-bottom: 3px solid white;
 }
 .container-principal{
     width: auto;
@@ -84,12 +90,33 @@ a:hover {
     align-items: center;
     padding-top: 50px;
 }
+.about-me-text {
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    line-height: 1.5;
+    max-width: 600px;
+    margin-top: 20px;
+    color: #333;
+}
 .content-left p {
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     padding: 40px;
 }
+.content-left h1 {
+    font-size: 36px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: 'Arial Black', sans-serif;
+    border-bottom: 2px solid #333;
+    width: 40%;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
 .content-right {
     width: 50%;
     min-height: 100%;
@@ -149,30 +176,25 @@ height: 400px;
 
 }
 
-.content-left h1 {
-    font-size: 50px;
-    letter-spacing: 7px;
-    font-weight: bold;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border-bottom: 1px solid black;
-    width: 40%;
-    text-align: center;
-
-}
-
 footer{
     color: white;
     width: 100%;
-    height: 80px;
+    height: 100px;
     left: 0;
     bottom: 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     position: relative;
     background-color: #333;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    
+    
 }
-footer p {
-    text-align: center;
+footer b {
+    font-size: 25px;
+    letter-spacing: 2px;
 }

@@ -8,26 +8,28 @@
     <link rel="stylesheet" href="../css/stylesabout.css">
     <script src="../js/scripts.js"></script>
 </head>
-<body onload="startRellotge()">
+<body onload="startRellotge(); mostraData();">
     <header>
         <h1 class="h1-title">Agustín Cintas</h1>
         <ul class="ul-nav">
             <li><a href="./index.html">Home</a></li>
-            <li><a href="./about.html">About</a></li>
+            <li id="selected"><a href="./about.html">About</a></li>
             <li><a href="./resume.html">Resume</a></li>
             <li><a href="./contact.html">Contact</a></li>
         </ul>
         <span id="div-clock"></span>
     </header>
        <div class="container-principal">
-        
+     
         <div class="content-left">
             <h1>About Me</h1>
-            <p>Constantly growing junior programmer. 
-            I adapt to the needs of the company, providing value in solving problems. 
-            Available to work in person or remotely on collaborative projects.I am eager to contribute to your team's success and drive innovation through code.</p>
-            <img src="./img/aclogo.png" alt="aclogo" id="imgLogo">
+            <p class="about-me-text">
+                I'm a passionate junior programmer committed to continuous learning and growth. I specialize in problem-solving and adapt to the specific needs of a project. Whether it's collaborating in person or working remotely, I'm dedicated to making a meaningful impact.
+            </p>
+            <img src="../img/aclogo.png" alt="aclogo" id="imgLogo">
         </div>
+        
+       
         <div class="content-right">
             <h1>Skills</h1>
                 <div class="content-right-progress">
@@ -100,9 +102,12 @@
        </div>
 
     
-    <footer>
-     <p><i> &copy;Derechos Reservados por Agustín Cintas</i></p>
-    </footer>
+       <footer>
+        
+        <b> &copy;Derechos Reservados por Agustín Cintas</b>
+        <i style="color: white;" id="fechaActual"></i>
+        <i style="color: white;" id="diasTranscurridos"></i>
+       </footer>
 </body>
 </html>
 

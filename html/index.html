@@ -9,14 +9,14 @@
     <script src="../js/scripts.js"></script>
     
 </head>
-<body onload="startRellotge()">
+<body onload="startRellotge(); mostraData();">
     <header>
         <h1 class="h1-title">Agustín Cintas</h1>
    
         
         <nav>
             <ul class="ul-nav">
-                <li><a href="./index.html">Home</a></li>
+                <li id="selected"><a href="./index.html">Home</a></li>
                 <li><a href="./about.html">About</a></li>
                 <li><a href="./resume.html">Resume</a></li>
                 <li><a href="./contact.html">Contact</a></li>
@@ -29,15 +29,18 @@
         
         <div class="content-text">
             <h1>Welcome to my Portfolio</h1>
-            <h2>Welcome to my programmer's portfolio, where you can explore my work and development skills. If you like what I do, feel free to get in touch!</h2>
-            <img src="./img/aclogo.png" alt="Logo img" id="imgLogo">
+            <h3>Welcome to my programmer's portfolio, where you can explore my work and development skills. If you like what I do, feel free to get in touch!</h3>
+            <img src="../img/aclogo.png" alt="Logo img" id="imgLogo">
         </div>
         
        </div>
 
     
     <footer>
-     <p><i> &copy;Derechos Reservados por Agustín Cintas</i></p>
+        
+     <b> &copy;Derechos Reservados por Agustín Cintas</b>
+     <i style="color: white;" id="fechaActual"></i>
+     <i style="color: white;" id="diasTranscurridos"></i>
     </footer>
 </body>
 </html>

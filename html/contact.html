@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/stylescontact.css">
     <script src="../js/scripts.js"></script>
 </head>
-<body onload="startRellotge()">
+<body onload="startRellotge(); mostraData();">
     <header>
         <h1 class="h1-title">Agustín Cintas</h1>
         <nav>
@@ -16,7 +16,7 @@
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./about.html">About</a></li>
                 <li><a href="./resume.html">Resume</a></li>
-                <li><a href="./contact.html">Contact</a></li>
+                <li id="selected"><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
         <span id="div-clock"></span>
@@ -52,20 +52,23 @@
         <div class="content-right">
             <h1>Links of interest</h1>
             <div class="content-links">
-                <div><a href="https://www.instagram.com/"><img src="./img/insta.png" alt="insta" width="80px" height="80px"></a></div>
-                <div><a href="https://www.instagram.com/"><img src="./img/github.png" alt="git" width="80px" height="80px"></a></div>
-                <div><a href="https://www.instagram.com/"><img src="./img/linkedin.png" alt="linkedin" width="80px" height="80px"></a></div>
-                <div><a href="https://www.instagram.com/"><img src="./img/whatsapp.png" alt="wp" width="80px" height="80px"></a></div>
+                <div><a href="https://www.instagram.com/" target="_blank"><img src="../img/insta.png" alt="insta" width="80px" height="80px"  ></a></div>
+                <div><a href="https://www.instagram.com/" target="_blank"><img src="../img/github.png" alt="git" width="80px" height="80px"></a></div>
+                <div><a href="https://www.instagram.com/" target="_blank"><img src="../img/linkedin.png" alt="linkedin" width="80px" height="80px"></a></div>
+                <div><a href="https://www.instagram.com/" target="_blank"><img src="../img/whatsapp.png" alt="wp" width="80px" height="80px"></a></div>
             </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11928.314015936734!2d2.1564154188368803!3d41.63243452832823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4c1b84ef70145%3A0xf9798ed18e8b1cdf!2s08140%20Caldes%20de%20Montbui%2C%20Barcelona!5e0!3m2!1ses!2ses!4v1696347355685!5m2!1ses!2ses" width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11928.314015936734!2d2.1564154188368803!3d41.63243452832823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4c1b84ef70145%3A0xf9798ed18e8b1cdf!2s08140%20Caldes%20de%20Montbui%2C%20Barcelona!5e0!3m2!1ses!2ses!4v1696347355685!5m2!1ses!2ses"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
        
         
        </div>
 
     
-    <footer>
-     <p><i> &copy;Derechos Reservados por Agustín Cintas</i></p>
-    </footer>
+       <footer>
+        
+        <b> &copy;Derechos Reservados por Agustín Cintas</b>
+        <i style="color: white;" id="fechaActual"></i>
+        <i style="color: white;" id="diasTranscurridos"></i>
+       </footer>
 </body>
 </html>
