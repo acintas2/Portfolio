@@ -111,8 +111,8 @@ background: linear-gradient(to right,rgb(58, 82, 53), #141414,rgb(58, 82, 53));
 }
 
 #imgLogo {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     animation: focusLogo 5s ease-in-out infinite;
 }
 @keyframes focusLogo {
